@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans+KR:wght@300&family=Teko:wght@700&display=swap")
+@import url("componements/cards.css");
+@import url("componements/banner.css");
+@import url("componements/button.css");
+@import url("componements/container.css");
+@import url("componements/navigation.css");
+/*page galette réalisée*/
+
+body {
+  color: #34626c;
+  background-color: #fff3e2;
+  margin: 0px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+li{
+  list-style: none;
+  padding-left: 90px
+}
+
+h1,h2{
+  font-family: 'Teko', sans-serif;
+}
+
+h1{
+  font-size: 50px
+}
+h2{
+  font-size: 30px;
+text-align: center;
+}
+
+a{
+  font-family: 'Lobster', cursive;
+}
+

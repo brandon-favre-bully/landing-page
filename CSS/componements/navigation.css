@@ -1,0 +1,28 @@
+
+.navigation{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding-left: 0px;
+    flex-wrap: wrap;
+    margin: 10px 10px
+}
+.nav-box{
+  display: inline;
+  justify-content: space-around;
+}
+
+.nav-box a {
+  display: inline;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 23px;
+  justify-content: space-around;
+}
+
+
+.nav-box a:hover{
+  color:black;
+}

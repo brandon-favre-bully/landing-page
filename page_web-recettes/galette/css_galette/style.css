@@ -1,0 +1,128 @@
+/*general*/
+body {
+  color: #34626c;
+  background-color: #fff3e2;
+  margin: 0px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 20px;
+  line-height: 50px
+}
+
+h1,h2{
+  font-family: 'Teko', sans-serif;
+}
+
+h1{
+  font-size: 50px
+}
+h2{
+  font-size: 30px;
+text-align: center;
+}
+
+a{
+  font-family: 'Lobster', cursive;
+}
+/*entete*/
+
+.ban{
+  background-image: url("../../image/galette.jfif");
+  background-size: cover;
+  background-position: center;
+  padding: 45px 0px;
+  text-align: center;
+}
+.ban h1{
+  margin-top: 0px;
+  color:#fff3e2;
+}
+/*ingrédients et ustentile*/
+
+.box{
+background-color: white;
+padding: 30px;
+border-radius: 6px;
+box-shadow:4px 6px 17px #bc6ff1;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+margin: 30px auto;
+line-height:30px;
+}
+.box_ing{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.ing_gar{
+background-color: white;
+box-shadow:4px 6px 17px #bc6ff1;
+margin:17px;
+padding:17px 17px;
+border-radius: 6px;
+flex-wrap: wrap;
+}
+
+.ing{
+background-color: white;
+display: inline;
+box-shadow:4px 6px 17px #bc6ff1;
+flex-basis: 310px;
+margin:17px;
+padding:17px 17px;
+border-radius: 6px
+}
+
+.box li{
+  list-style: none;
+  padding-left: 0px;
+}
+.ust{
+background-color: white;
+box-shadow:4px 6px 17px #bc6ff1;
+flex-basis: 310px;
+margin:17px;
+padding:17px 17px;
+border-radius: 6px
+}
+/*recette*/
+.recette {
+  margin-top: 10px;
+}
+ol{
+ padding-left: 120px
+}
+
+/*lexique*/
+}
+.lexique ul{
+  padding-left: 120px
+
+}
+
+.lexique li {
+  list-style: none;
+  padding-left: 0px
+}
+.video{
+  background-image:url("../../image/galette.jfif");
+  background-size: cover;
+  background-position: center;
+  border: 1px solid black;
+  display: block;
+  margin: 50px auto;
+}
+
+/*media*/
+@media (max-width: 960px){
+  .container{width:700px}
+}
+@media (max-width: 720px){
+  .container{width:500px}
+}
+@media (max-width: 540px){
+  .container{
+    width:400px;
+  }
+}
